@@ -25,7 +25,7 @@ class Configure(object):
         with open(self.__config, 'rb') as c:
             __config = pickle.load(c)
 
-        return __config.get("mediaUserToken")
+        return __config.get("Ai3EtDRRuM5Bw+TnE+PT+rJhxNP6OldiJ9Ib7Po79QPpYTddmtMnrvz8d2AWrqOl7DhA/T6ZwvPJxVu1rBGsYQI7vTV6lvDNIX8omuGJahvdIe23W0iN8Zmsd5yYnTVwB/VLQZmG9JqowVoVt+vc24h5hwoo0mjefwYxdS93WyfM0R48NwXPOD+Mj2ZiWru3c8NdHIzLqnAGu0dBmRPv49dP7Pw+lP3sH9SVJFkRT+9SeROLcA==")
 
     def set(self):
         __mediaUserToken = input("\n\tmedia-user-token: ")
